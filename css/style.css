@@ -69,12 +69,11 @@ body {
   position: relative;
   display: block;
   margin-bottom: -5px;
-  padding-top: -7px;
+  padding-top: -7%;
   padding-bottom: -5%;
   color: #000000;
-  
-}
 
+}
 
 .content{
   text-align: left;
@@ -89,7 +88,7 @@ body {
   color: #00c3ff;
   font-family: jubilat, serif;
   z-index: 2;
-  font-size: 2.5em;
+  font-size: 2em;
   padding-left: 2rem;
 }
 
@@ -124,7 +123,7 @@ body {
 
 .principal{
   left: 50%;
-  top: 15.5%;
+  top: 18%;
   transform: translate(-50%,-50%);
   position: absolute;
   letter-spacing: 1px;
@@ -149,12 +148,14 @@ body {
 }
 #slider figure {
   position: relative;
+  
   width: 400%;
   margin: 0;
   left:0;
   animation: 10s slider infinite;
 }
 #slider figure img {
+ 
   display: inline-block;
   width: 25%;
   height: 900px;
@@ -176,14 +177,15 @@ body {
 }
 
 
+
+
+
 #hrabout {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
   margin-left: auto;
 }
-
-
 
 
 @-webkit-keyframes separator-width {
@@ -204,16 +206,12 @@ body {
   }
 }
 
-@media screen and (min-width: 360px) and (max-width: 767) {
-  .slider{
-    width: 100%;
-    height: 100px;
-  }
+@media screen and (min-width: 575px) {
   .content {
     text-align: center;
   }
   .content .centered {
-    font-size: 2em;
+    font-size: 3em;
     padding-top: 35vh;
   }
   #sub {
@@ -237,7 +235,7 @@ body {
     text-align: center;
   }
   .content .centered {
-    font-size: 2.5em;
+    font-size: 3.5em;
     padding-top: 35vh;
   }
   #sub {
@@ -262,7 +260,7 @@ body {
     text-align: center;
   }
   .content .centered {
-    font-size: 3.5em;
+    font-size: 4.5em;
     padding-top: 35vh;
   }
   #sub {
