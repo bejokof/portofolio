@@ -66,10 +66,10 @@ body {
 }
 
 .about {
-
-
+  position: relative;
+  display: block;
   margin-bottom: -5px;
-  padding-top: -50%;
+  padding-top: -7px;
   padding-bottom: -5%;
   color: #000000;
   
@@ -95,8 +95,9 @@ body {
 
 .content .principal #sub {
   color: #00c3ff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1em;
+  text-align: center;
 }
 
 .more{
@@ -130,11 +131,11 @@ body {
   text-align: center;
 }
 .principal h1{
-  font-size: 58px;
+  font-size: 45px;
   margin-bottom: 18px;
 }
 .principal p{
-  font-size: 18px;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -148,14 +149,12 @@ body {
 }
 #slider figure {
   position: relative;
-  
   width: 400%;
   margin: 0;
   left:0;
   animation: 10s slider infinite;
 }
 #slider figure img {
- 
   display: inline-block;
   width: 25%;
   height: 900px;
